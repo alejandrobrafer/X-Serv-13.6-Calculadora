@@ -32,8 +32,8 @@ try:
 			except ZeroDivisionError:
 				print("\nIndefinido\n")
 		else:
-			print("Segundo argumento incorrecto.\n")
+			print("Segundo argumento incorrecto <operadores matemáticos>.\n")
 	else:
 		print("Número de argumentos incorrectos.\n")
 except ValueError:
-		print("Error en el valor del tercer y cuarto argumento.\n")
+	print("Error en el valor del tercer y cuarto argumento <valores numéricos>.\n")
